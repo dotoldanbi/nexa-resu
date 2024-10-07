@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="INTR0002" width="1090" height="650" titletext="New Form" onload="INTR0002_onload">
+    <Layouts>
+      <Layout height="650" mobileorientation="landscape" width="1090">
+        <Static id="Static00" taborder="0" text="· Home &gt; 소개  &gt; 경력증명" left="0" top="0" height="34" cssclass="sta_WF_title01" right="10"/>
+        <Div id="divDetail" taborder="3" left="6" top="507" height="140" border="1px solid" text="" right="10" font="normal 10pt/normal &quot;나눔고딕&quot;">
+          <Layouts>
+            <Layout>
+              <Static id="Static01" taborder="0" text="프로젝트명" left="6" top="6" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08" taborder="20" left="115" top="6" height="32" cssclass="sta_cm_box02L" text="" width="835" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Edit id="Edit00" taborder="1" left="120" top="10" width="827" height="25" readonly="true" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_00" taborder="21" left="115" top="37" height="32" cssclass="sta_cm_box02L" width="832" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Edit id="Edit00_00" taborder="3" left="120" top="40" width="199" height="25" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static01_01" taborder="8" text="프론트" left="6" top="66" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_01" taborder="22" left="115" top="66" height="32" cssclass="sta_cm_box02L" width="285" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Edit id="Edit00_01" taborder="9" left="120" top="70" width="199" height="25" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static01_00_00" taborder="14" text="SERVER" left="6" top="97" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_00_00" taborder="23" left="115" top="97" height="32" cssclass="sta_cm_box02L" width="285" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Edit id="Edit00_00_00" taborder="15" left="120" top="101" width="199" height="25" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static01_02" taborder="4" text="수행년도" left="320" top="36" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_02" taborder="24" left="429" top="36" height="32" cssclass="sta_cm_box02L" width="285" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static01_00" taborder="2" text="고객사" left="6" top="37" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Edit id="Edit00_02" taborder="5" left="434" top="40" width="199" height="25" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static01_02_00" taborder="10" text="백엔드" left="320" top="66" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_02_00" taborder="25" left="429" top="66" height="32" cssclass="sta_cm_box02L" width="285" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static01_00_01_00" taborder="16" text="TOOL" left="320" top="97" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_00_01_00" taborder="26" left="429" top="97" height="32" cssclass="sta_cm_box02L" width="206" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Edit id="Edit00_00_01_00" taborder="17" left="434" top="101" width="199" height="25" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static01_03" taborder="6" text="SI / SM" left="634" top="36" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Edit id="Edit00_02_00" taborder="11" left="434" top="70" width="199" height="25" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_03" taborder="27" left="743" top="36" height="32" cssclass="sta_cm_box02L" width="207" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static01_01_00" taborder="12" text="DB" left="634" top="66" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_01_00" taborder="28" left="743" top="66" height="32" cssclass="sta_cm_box02L" width="207" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Edit id="Edit00_01_00" taborder="13" left="748" top="70" width="199" height="25" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Combo id="Combo00" taborder="7" left="748" top="40" width="199" height="25" innerdataset="innerdataset" codecolumn="codecolumn" datacolumn="datacolumn" font="normal 10pt/normal &quot;나눔고딕&quot;">
+                <Dataset id="innerdataset">
+                  <ColumnInfo>
+                    <Column id="codecolumn" size="256"/>
+                    <Column id="datacolumn" size="256"/>
+                  </ColumnInfo>
+                  <Rows>
+                    <Row>
+                      <Col id="codecolumn">SI</Col>
+                      <Col id="datacolumn">SI</Col>
+                    </Row>
+                    <Row>
+                      <Col id="codecolumn">SM</Col>
+                      <Col id="datacolumn">SM</Col>
+                    </Row>
+                  </Rows>
+                </Dataset>
+              </Combo>
+              <Button id="btnApply" taborder="18" left="963" top="11" width="75" height="25" cssclass="btn_WF_add01" text="적용" font="normal 10pt/normal &quot;나눔고딕&quot;" onclick="divDetail_btnApply_onclick"/>
+              <Button id="btnInit" taborder="19" left="963" top="40" width="75" height="25" cssclass="btn_WF_delete01" text="초기화" font="normal 10pt/normal &quot;나눔고딕&quot;" onclick="divDetail_btnInit_onclick"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Div id="divResult" taborder="2" text="Div01" left="6" top="120" height="358" border="1px solid" right="10" font="normal 10pt/normal &quot;나눔고딕&quot;">
+          <Layouts>
+            <Layout>
+              <Grid id="grdList" taborder="0" left="6" top="10" right="9" bottom="7" binddataset="ds_Prj" autofittype="col" nodatatext="조회된 데이터가 없습니다" font="normal 10pt/normal &quot;나눔고딕&quot;" cellsizingtype="col">
+                <Formats>
+                  <Format id="default">
+                    <Columns>
+                      <Column size="160"/>
+                      <Column size="50"/>
+                      <Column size="50"/>
+                      <Column size="120"/>
+                      <Column size="80"/>
+                      <Column size="80"/>
+                      <Column size="80"/>
+                      <Column size="80"/>
+                      <Column size="80"/>
+                    </Columns>
+                    <Rows>
+                      <Row size="24" band="head"/>
+                      <Row size="24" band="head"/>
+                      <Row size="24"/>
+                    </Rows>
+                    <Band id="head">
+                      <Cell rowspan="2" text="프로젝트명"/>
+                      <Cell col="1" rowspan="2" text="수행년도"/>
+                      <Cell col="2" rowspan="2" text="SI / SM"/>
+                      <Cell col="3" rowspan="2" text="고객사"/>
+                      <Cell col="4" colspan="5" text="소요기술"/>
+                      <Cell row="1" col="4" text="프론트"/>
+                      <Cell row="1" col="5" text="프레임워크"/>
+                      <Cell row="1" col="6" text="DB"/>
+                      <Cell row="1" col="7" text="SERVER"/>
+                      <Cell row="1" col="8" text="TOOL"/>
+                    </Band>
+                    <Band id="body">
+                      <Cell text="bind:PRJ_NAME"/>
+                      <Cell col="1" text="bind:PRJ_YEAR" textAlign="center"/>
+                      <Cell col="2" text="bind:PRJ_TYPE" textAlign="center"/>
+                      <Cell col="3" text="bind:PRJ_CUSTOMER"/>
+                      <Cell col="4" text="bind:PRJ_FRNT"/>
+                      <Cell col="5" text="bind:PRJ_BKND"/>
+                      <Cell col="6" text="bind:PRJ_DB"/>
+                      <Cell col="7" text="bind:PRJ_SVR"/>
+                      <Cell col="8" text="bind:PRJ_TOOL"/>
+                    </Band>
+                  </Format>
+                </Formats>
+              </Grid>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Static id="Static00_00" taborder="5" text="프로젝트 상세" left="6" top="479" height="34" cssclass="sta_WF_title01" right="4" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+        <Div id="divSearch" taborder="1" left="6" top="45" height="70" border="1px solid" text="" right="10" font="normal 10pt/normal &quot;나눔고딕&quot;">
+          <Layouts>
+            <Layout>
+              <Static id="stcSrchPrjName" taborder="0" text="프로젝트명" left="6" top="6" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_00_00" taborder="5" left="115" top="6" height="32" cssclass="sta_cm_box02L" width="285" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Edit id="edtSrchPrjName" taborder="1" left="120" top="10" width="199" height="25" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="stcSrchPrjType" taborder="2" text="유형" left="320" top="6" width="110" height="32" cssclass="sta_cm_box01R" onclick="Static01_onclick" textAlign="center" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Static id="Static08_00_01_00" taborder="6" left="429" top="6" height="32" cssclass="sta_cm_box02L" width="206" font="normal 10pt/normal &quot;나눔고딕&quot;"/>
+              <Combo id="cboSearchPrjType" taborder="3" left="434" top="10" width="199" height="25" innerdataset="innerdataset" codecolumn="codecolumn" datacolumn="datacolumn" font="normal 10pt/normal &quot;나눔고딕&quot;" index="0" text="SI" value="SI">
+                <Dataset id="innerdataset">
+                  <ColumnInfo>
+                    <Column id="codecolumn" size="256"/>
+                    <Column id="datacolumn" size="256"/>
+                  </ColumnInfo>
+                  <Rows>
+                    <Row>
+                      <Col id="codecolumn"/>
+                      <Col id="datacolumn">전체</Col>
+                    </Row>
+                    <Row>
+                      <Col id="codecolumn">SI</Col>
+                      <Col id="datacolumn">SI</Col>
+                    </Row>
+                    <Row>
+                      <Col id="codecolumn">SM</Col>
+                      <Col id="datacolumn">SM</Col>
+                    </Row>
+                  </Rows>
+                </Dataset>
+              </Combo>
+              <Button id="btnSrch" taborder="4" top="-2" width="70" height="70" cssclass="btn_WF_search03" right="0" text="" font="normal 10pt/normal &quot;나눔고딕&quot;" onclick="divSearch_btnSrch_onclick"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Button id="btnExExl" taborder="4" text="엑셀출력" left="996" top="13" height="26" onclick="btnExExl_onclick" right="10"/>
+      </Layout>
+    </Layouts>
+    <Objects>
+      <Dataset id="ds_Employee">
+        <ColumnInfo>
+          <Column id="Check" type="STRING" size="256"/>
+          <Column id="이름" type="STRING" size="256"/>
+          <Column id="나이" type="STRING" size="256"/>
+          <Column id="핸드폰" type="STRING" size="256"/>
+          <Column id="집전화" type="STRING" size="256"/>
+          <Column id="집주소" type="STRING" size="256"/>
+          <Column id="집우편번호" type="STRING" size="256"/>
+          <Column id="성별" type="STRING" size="256"/>
+          <Column id="직장주소" type="STRING" size="256"/>
+          <Column id="직장우편번호" type="STRING" size="256"/>
+          <Column id="직장전화" type="STRING" size="256"/>
+          <Column id="직급" type="STRING" size="256"/>
+          <Column id="입사일" type="STRING" size="256"/>
+          <Column id="퇴사일" type="STRING" size="256"/>
+          <Column id="비고" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="이름">서동천</Col>
+            <Col id="나이">66</Col>
+            <Col id="핸드폰">010-1111-1111</Col>
+            <Col id="집전화">02-1111-1111</Col>
+            <Col id="집주소">서울시 강북구 미아동</Col>
+            <Col id="집우편번호">05321</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 강동구 성내동</Col>
+            <Col id="직장우편번호">05312</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">수석컨설턴트</Col>
+            <Col id="입사일">2003-03-04</Col>
+          </Row>
+          <Row>
+            <Col id="이름">모태강</Col>
+            <Col id="나이">51</Col>
+            <Col id="핸드폰">010-2222-2222</Col>
+            <Col id="집전화">02-2222-2222</Col>
+            <Col id="집주소">서울시 강남구 청담동</Col>
+            <Col id="집우편번호">05312</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 강동구 성내동</Col>
+            <Col id="직장우편번호">05485</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">수석컨설턴트</Col>
+            <Col id="입사일">2003-03-05</Col>
+          </Row>
+          <Row>
+            <Col id="이름">김이경</Col>
+            <Col id="나이">25</Col>
+            <Col id="핸드폰">010-3333-3333</Col>
+            <Col id="집전화">02-3333-3333</Col>
+            <Col id="집주소">서울시 강북구 수유동</Col>
+            <Col id="집우편번호">05485</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 강동구 성내동</Col>
+            <Col id="직장우편번호">05893</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">책임컨설턴트</Col>
+            <Col id="입사일">2003-04-05</Col>
+          </Row>
+          <Row>
+            <Col id="이름">지서영</Col>
+            <Col id="나이">48</Col>
+            <Col id="핸드폰">010-4444-4444</Col>
+            <Col id="집전화">02-4444-4444</Col>
+            <Col id="집주소">서울시 강남구 대치동</Col>
+            <Col id="집우편번호">05893</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 강동구 성내동</Col>
+            <Col id="직장우편번호">06523</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">책임컨설턴트</Col>
+            <Col id="입사일">2005-12-11</Col>
+          </Row>
+          <Row>
+            <Col id="이름">공수래</Col>
+            <Col id="나이">60</Col>
+            <Col id="핸드폰">010-5555-5555</Col>
+            <Col id="집전화">02-5555-5555</Col>
+            <Col id="집주소">서울시 강동구 천호동</Col>
+            <Col id="집우편번호">06523</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 강동구 성내동</Col>
+            <Col id="직장우편번호">02183</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">책임컨설턴트</Col>
+            <Col id="입사일">2005-12-12</Col>
+          </Row>
+          <Row>
+            <Col id="이름">차요한</Col>
+            <Col id="나이">42</Col>
+            <Col id="핸드폰">010-6666-6666</Col>
+            <Col id="집전화">02-6666-6666</Col>
+            <Col id="집주소">서울시 강남구 역삼동</Col>
+            <Col id="집우편번호">02183</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 강남구 논현동</Col>
+            <Col id="직장우편번호">02854</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">책임컨설턴트</Col>
+            <Col id="입사일">2007-01-03</Col>
+          </Row>
+          <Row>
+            <Col id="이름">강시영</Col>
+            <Col id="나이">28</Col>
+            <Col id="핸드폰">010-7777-7777</Col>
+            <Col id="집전화">02-7777-7777</Col>
+            <Col id="집주소">서울시 강남구 논현동</Col>
+            <Col id="집우편번호">02854</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 강남구 논현동</Col>
+            <Col id="직장우편번호">05985</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">책임컨설턴트</Col>
+            <Col id="입사일">2009-05-30</Col>
+          </Row>
+          <Row>
+            <Col id="이름">손석기</Col>
+            <Col id="나이">43</Col>
+            <Col id="핸드폰">010-8888-8888</Col>
+            <Col id="집전화">02-8888-8888</Col>
+            <Col id="집주소">서울시 강서구 여의도동</Col>
+            <Col id="집우편번호">05985</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 서초구 서초동</Col>
+            <Col id="직장우편번호">05327</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">책임컨설턴트</Col>
+            <Col id="입사일">2009-11-12</Col>
+          </Row>
+          <Row>
+            <Col id="이름">이유준</Col>
+            <Col id="나이">34</Col>
+            <Col id="핸드폰">010-9999-9999</Col>
+            <Col id="집전화">02-9999-9999</Col>
+            <Col id="집주소">서울시 강남구 논현동</Col>
+            <Col id="집우편번호">05327</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 강남구 논현동</Col>
+            <Col id="직장우편번호">05123</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">책임컨설턴트</Col>
+            <Col id="입사일">2009-12-05</Col>
+          </Row>
+          <Row>
+            <Col id="이름">강미래</Col>
+            <Col id="나이">28</Col>
+            <Col id="핸드폰">010-1111-2222</Col>
+            <Col id="집전화">02-1111-2222</Col>
+            <Col id="집주소">서울시 강남구 논현동</Col>
+            <Col id="집우편번호">05123</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 강남구 논현동</Col>
+            <Col id="직장우편번호">05952</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">선임컨설턴트</Col>
+            <Col id="입사일">2010-01-22</Col>
+          </Row>
+          <Row>
+            <Col id="이름">장만월</Col>
+            <Col id="나이">30</Col>
+            <Col id="핸드폰">010-3333-4444</Col>
+            <Col id="집전화">02-3333-4444</Col>
+            <Col id="집주소">서울시 중구 명동</Col>
+            <Col id="집우편번호">05952</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 중구 명동</Col>
+            <Col id="직장우편번호">05423</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">수석컨설턴트</Col>
+            <Col id="입사일">2010-10-01</Col>
+          </Row>
+          <Row>
+            <Col id="이름">구찬성</Col>
+            <Col id="나이">30</Col>
+            <Col id="핸드폰">010-5555-6666</Col>
+            <Col id="집전화">02-5555-6666</Col>
+            <Col id="집주소">서울시 강남구 개포동</Col>
+            <Col id="집우편번호">05423</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 중구 명동</Col>
+            <Col id="직장우편번호">04235</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">수석컨설턴트</Col>
+            <Col id="입사일">2015-01-01</Col>
+          </Row>
+          <Row>
+            <Col id="이름">산체스</Col>
+            <Col id="나이">33</Col>
+            <Col id="핸드폰">010-7777-8888</Col>
+            <Col id="집전화">02-7777-8888</Col>
+            <Col id="집주소">서울시 강남구 일원동</Col>
+            <Col id="집우편번호">04235</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 강남구 삼성동</Col>
+            <Col id="직장우편번호">05243</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">책임컨설턴트</Col>
+            <Col id="입사일">2017-06-30</Col>
+          </Row>
+          <Row>
+            <Col id="이름">지현중</Col>
+            <Col id="나이">18</Col>
+            <Col id="핸드폰">010-9999-0000</Col>
+            <Col id="집전화">02-9999-0000</Col>
+            <Col id="집주소">서울시 중구 명동</Col>
+            <Col id="집우편번호">05243</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 중구 명동</Col>
+            <Col id="직장우편번호">05886</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">책임컨설턴트</Col>
+            <Col id="입사일">2017-08-20</Col>
+          </Row>
+          <Row>
+            <Col id="이름">이재상</Col>
+            <Col id="나이">37</Col>
+            <Col id="핸드폰">010-0000-1111</Col>
+            <Col id="집전화">02-0000-1111</Col>
+            <Col id="집주소">서울시 강남구 도곡동</Col>
+            <Col id="집우편번호">05886</Col>
+            <Col id="성별">남</Col>
+            <Col id="직장주소">서울시 서초구 서초동</Col>
+            <Col id="직장우편번호">05412</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">선임컨설턴트</Col>
+            <Col id="입사일">2019-02-01</Col>
+          </Row>
+          <Row>
+            <Col id="이름">라시온</Col>
+            <Col id="나이">33</Col>
+            <Col id="핸드폰">010-2222-3333</Col>
+            <Col id="집전화">02-2222-3333</Col>
+            <Col id="집주소">서울시 강동구 명일동</Col>
+            <Col id="집우편번호">05932</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 서초구 서초동</Col>
+            <Col id="직장우편번호">05796</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">선임컨설턴트</Col>
+            <Col id="입사일">2019-09-01</Col>
+          </Row>
+          <Row>
+            <Col id="이름">제니장</Col>
+            <Col id="나이">44</Col>
+            <Col id="핸드폰">010-4444-5555</Col>
+            <Col id="집전화">02-4444-5555</Col>
+            <Col id="집주소">서울시 강남구 도곡동</Col>
+            <Col id="집우편번호">05886</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 서초구 서초동</Col>
+            <Col id="직장우편번호">05412</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">대표</Col>
+            <Col id="입사일">2001-01-01</Col>
+          </Row>
+          <Row>
+            <Col id="이름">김여옥</Col>
+            <Col id="나이">58</Col>
+            <Col id="핸드폰">010-6666-7777</Col>
+            <Col id="집전화">02-6666-7777</Col>
+            <Col id="집주소">서울시 강남구 도곡동</Col>
+            <Col id="집우편번호">05886</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 서초구 서초동</Col>
+            <Col id="직장우편번호">05412</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">회장</Col>
+            <Col id="입사일">2001-01-01</Col>
+          </Row>
+          <Row>
+            <Col id="이름">위예남</Col>
+            <Col id="나이">35</Col>
+            <Col id="핸드폰">010-8888-9999</Col>
+            <Col id="집전화">02-8888-9999</Col>
+            <Col id="집주소">서울시 강남구 개포동</Col>
+            <Col id="집우편번호">05886</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 강남구 삼성동</Col>
+            <Col id="직장우편번호">05243</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">전무</Col>
+            <Col id="입사일">2001-01-01</Col>
+          </Row>
+          <Row>
+            <Col id="이름">이현지</Col>
+            <Col id="나이">30</Col>
+            <Col id="핸드폰">010-1111-0000</Col>
+            <Col id="집전화">02-1111-0000</Col>
+            <Col id="집주소">서울시 강남구 논현동</Col>
+            <Col id="집우편번호">05886</Col>
+            <Col id="성별">여</Col>
+            <Col id="직장주소">서울시 강남구 삼성동</Col>
+            <Col id="직장우편번호">05243</Col>
+            <Col id="직장전화">02-1234-5678</Col>
+            <Col id="직급">이사</Col>
+            <Col id="입사일">2001-01-01</Col>
+          </Row>
+        </Rows>
+      </Dataset>
+      <Dataset id="ds_Prj" onrowposchanged="ds_Prj_onrowposchanged" useclientlayout="true">
+        <ColumnInfo>
+          <Column id="PRJ_NAME" type="STRING" size="256"/>
+          <Column id="PRJ_YEAR" type="STRING" size="256"/>
+          <Column id="PRJ_TYPE" type="STRING" size="256"/>
+          <Column id="PRJ_CUSTOMER" type="STRING" size="256"/>
+          <Column id="PRJ_FRNT" type="STRING" size="256"/>
+          <Column id="PRJ_BKND" type="STRING" size="256"/>
+          <Column id="PRJ_DB" type="STRING" size="256"/>
+          <Column id="PRJ_SVR" type="STRING" size="256"/>
+          <Column id="PRJ_TOOL" type="STRING" size="256"/>
+        </ColumnInfo>
+      </Dataset>
+      <Dataset id="ds_PrjEdit" useclientlayout="true">
+        <ColumnInfo>
+          <Column id="PRJ_NAME" type="STRING" size="256"/>
+          <Column id="PRJ_YEAR" type="STRING" size="256"/>
+          <Column id="PRJ_TYPE" type="STRING" size="256"/>
+          <Column id="PRJ_CUSTOMER" type="STRING" size="256"/>
+          <Column id="PRJ_FRNT" type="STRING" size="256"/>
+          <Column id="PRJ_BKND" type="STRING" size="256"/>
+          <Column id="PRJ_DB" type="STRING" size="256"/>
+          <Column id="PRJ_SVR" type="STRING" size="256"/>
+          <Column id="PRJ_TOOL" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row/>
+        </Rows>
+      </Dataset>
+      <Dataset id="ds_Prj00" onrowposchanged="ds_Prj_onrowposchanged">
+        <ColumnInfo>
+          <Column id="PRJ_NAME" type="STRING" size="256"/>
+          <Column id="PRJ_DATE" type="STRING" size="256"/>
+          <Column id="PRJ_TYPE" type="STRING" size="256"/>
+          <Column id="PRJ_CUSTOMER" type="STRING" size="256"/>
+          <Column id="PRJ_FRONT" type="STRING" size="256"/>
+          <Column id="PRJ_BACK" type="STRING" size="256"/>
+          <Column id="PRJ_DB" type="STRING" size="256"/>
+          <Column id="PRJ_SERVER" type="STRING" size="256"/>
+          <Column id="PRJ_TOOL" type="STRING" size="256"/>
+          <Column id="Column5" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="PRJ_NAME">우선구매시스템 운영</Col>
+            <Col id="PRJ_DATE">2021</Col>
+            <Col id="PRJ_TYPE">SM</Col>
+            <Col id="PRJ_CUSTOMER">장애인개발원</Col>
+            <Col id="PRJ_FRONT">MiPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_SERVER">Weblogic</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">AI기반 전자감독서비스 구축</Col>
+            <Col id="PRJ_DATE">2020</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">법무부</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_FRONT">MiPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">국민체육진흥동단 경륜경정시스템</Col>
+            <Col id="PRJ_DATE">2019</Col>
+            <Col id="PRJ_TYPE">SM</Col>
+            <Col id="PRJ_CUSTOMER">국민체육진흥공단</Col>
+            <Col id="PRJ_FRONT">xPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">삼성SDS BOSS시스템 빌링엔진 교체</Col>
+            <Col id="PRJ_DATE">2018</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">삼성SDS</Col>
+            <Col id="PRJ_FRONT">xPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">CMC 인사개발</Col>
+            <Col id="PRJ_DATE">2017</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">평화IS(카톨릭성모병원)</Col>
+            <Col id="PRJ_FRONT">xPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">대우증권 사후상품관리 고도화 구축</Col>
+            <Col id="PRJ_DATE">2016</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">대우증권</Col>
+            <Col id="PRJ_FRONT">xPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">화진화장품 종합시스템 프로젝트</Col>
+            <Col id="PRJ_DATE">2015</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">화진화장품</Col>
+            <Col id="PRJ_FRONT">xPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">현대모비스 중국 AMOS 프로젝트</Col>
+            <Col id="PRJ_DATE">2014</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">현대모비스</Col>
+            <Col id="PRJ_FRONT">MiPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">삼성물산 IAM고도화 프로젝트</Col>
+            <Col id="PRJ_DATE">2014</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">삼성물산</Col>
+            <Col id="PRJ_FRONT">xPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse(Anyframe)</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">대우증권 리스크관리 프로젝트</Col>
+            <Col id="PRJ_DATE">2013</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">대우증권</Col>
+            <Col id="PRJ_FRONT">xPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">삼성전자 챗온개발</Col>
+            <Col id="PRJ_DATE">2013</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">삼성전자</Col>
+            <Col id="PRJ_FRONT">JSP</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">mySQL</Col>
+            <Col id="PRJ_TOOL">Eclipse(Anyframe)</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">한국사이버결제 시스템개발</Col>
+            <Col id="PRJ_DATE">2012</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">한국사이버결제</Col>
+            <Col id="PRJ_FRONT">JSP</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">jBOSS(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">대한생명 콜센터 차세대</Col>
+            <Col id="PRJ_DATE">2012</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">대한생명</Col>
+            <Col id="PRJ_FRONT">MiPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">차세대 자치체 시스템</Col>
+            <Col id="PRJ_DATE">2010</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">료묘시스템즈(両毛システムズ)</Col>
+            <Col id="PRJ_FRONT">MiPLATFORM</Col>
+            <Col id="PRJ_BACK">JAVA, SPRING</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse(Anyframe)</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">차세대 POS 시스템</Col>
+            <Col id="PRJ_DATE">2008</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">이데미츠(出光)</Col>
+            <Col id="PRJ_FRONT">JSP</Col>
+            <Col id="PRJ_BACK">JAVA, STRUTS</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">차세대 보험 시스템</Col>
+            <Col id="PRJ_DATE">2007</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">미츠이스미토모보험(三井住友
+保険
+)</Col>
+            <Col id="PRJ_FRONT">PYTHON</Col>
+            <Col id="PRJ_TOOL">AQUALOGIC</Col>
+          </Row>
+          <Row>
+            <Col id="PRJ_NAME">차세대 POS 시스템</Col>
+            <Col id="PRJ_DATE">2007</Col>
+            <Col id="PRJ_TYPE">SI</Col>
+            <Col id="PRJ_CUSTOMER">이데미츠(出光)</Col>
+            <Col id="PRJ_FRONT">JSP</Col>
+            <Col id="PRJ_BACK">JAVA, STRUTS</Col>
+            <Col id="PRJ_DB">ORACLE</Col>
+            <Col id="PRJ_TOOL">Eclipse</Col>
+            <Col id="PRJ_SERVER">Tomcat(개발)</Col>
+          </Row>
+        </Rows>
+      </Dataset>
+      <Dataset id="dsSearch">
+        <ColumnInfo>
+          <Column id="PRJ_NAME" type="STRING" size="256"/>
+          <Column id="PRJ_TYPE" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row/>
+        </Rows>
+      </Dataset>
+    </Objects>
+    <Script type="xscript5.1"><![CDATA[/************************************************************************
+TITLE  : 경력기술 관리
+AUTHOR : jhsong
+DATE   : 2024.01.01.
+************************************************************************/
+include "LIB::common.xjs";
+
+//서버 Xeni Excel 관련 servlet mapping 주소
+this.url = "http://" + nexacro.getEnvironmentVariable("SVR_URL") + ":8081/river/XExportImport.do";
+
+//Export에 사용할 ExcelExportObject 변수생성
+this.objExcelExport = null;
+
+/************************************************************************
+INTR0002_onload : form onload
+************************************************************************/
+this.INTR0002_onload = function(obj:nexacro.Form,e:nexacro.LoadEventInfo)
+{
+  //폼로딩후 ExcelExportObject 생성
+  this.objExcelExport = new nexacro.ExcelExportObject("ExcelExportObject",this);
+  
+  //생성한 오브젝트에 이벤트추가
+  this.objExcelExport.addEventHandler("onprogress", this.ExcelExportObject_onprogress, this);
+  this.objExcelExport.addEventHandler("onsuccess", this.ExcelExportObject_onsuccess, this);  
+  this.objExcelExport.addEventHandler("onerror", this.ExcelExportObject_onerror, this);    
+  
+  //ExcelExportObject 의 대상 Grid 및 속성설정
+  this.objExcelExport.addExportItem(nexacro.ExportItemTypes.GRID, this.divResult.form.grdList, "Sheet1!A1","allband","allrecord", "merge", "allstyle", "none", "none", "width");  
+  this.objExcelExport.set_exportmessageprocess("%d [ %d / %d ]");
+  this.objExcelExport.set_exportuitype("exportprogress");
+  this.objExcelExport.set_exporteventtype("itemrecord");
+  this.objExcelExport.set_exporttype(nexacro.ExportTypes.EXCEL2007);
+  this.objExcelExport.set_exporturl(this.url); 
+
+  this.addChild("ExcelExportObject", this.objExcelExport); 
+};
+
+
+/************************************************************************
+검색버튼 onClick Event
+************************************************************************/
+this.divSearch_btnSrch_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{
+	this.fnSearch();
+};
+
+
+/************************************************************************
+트랜잭션 콜백
+************************************************************************/
+this.fnCallback = function(svcID,errorCode,errorMsg)
+{
+  // 에러 시 화면 처리 내역
+  if(errorCode != 0)
+  {
+    this.alert(errorCode+"\n"+errorMsg);
+    return;
+  }
+
+  switch(svcID)
+  {
+    case "search":
+      if(this.ds_Prj.rowcount < 1){
+        this.alert("조회된 결과가 없습니다.");
+      } else {
+		this.lfn_dispBottom(nexacro.toNumber(this.ds_Prj.rowcount) + "건 조회되었습니다.");
+	  }
+
+      break;
+  }
+};
+
+/************************************************************************
+검색 트랜잭션
+************************************************************************/
+this.fnSearch = function ()
+{
+  // 조회조건 셋팅
+  this.dsSearch.setColumn(0, "PRJ_NAME", this.divSearch.form.edtSrchPrjName.text);
+  this.dsSearch.setColumn(0, "PRJ_TYPE", this.divSearch.form.cboSearchPrjType.value);
+
+  var strSvcId    = "search";
+  var strSvcUrl   = "svc::selectRiverProfileList.do";
+  var inData      = "input1=dsSearch";
+  var outData     = "ds_Prj=output1";
+  var strArg      = "";
+  var callBackFnc = "fnCallback";
+  var isAsync     = true;
+
+  this.transaction(strSvcId ,     // transaction을 구분하기 위한 svc id값
+            strSvcUrl ,   // trabsaction을 요청할 주소
+            inData ,     // 입력값으로 보낼 dataset id , a=b형태로 실제이름과 입력이름을 매칭
+            outData ,     // 처리결과값으로 받을 dataset id, a=b형태로 실제이름과 입력이름을 매칭
+            strArg,     // 입력값으로 보낼 arguments, a=b
+            callBackFnc,   // transaction의 결과를 받을 Function 이름
+            isAsync);     // 비동기통신 여부 [생략가능]
+};
+
+/************************************************************************
+엑셀출력 버튼 onClick
+************************************************************************/
+this.btnExExl_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{
+	if (this.ds_Prj.rowcount < 1)
+	{
+		alert("출력할 데이터가 없습니다.");
+		return false;
+	}
+
+  //파일이름 셋팅 및 ExcelExport 실행
+  this.objExcelExport.set_exportfilename("Project_Hist");
+  this.objExcelExport.exportData();  
+};
+
+/************************************************************************
+엑셀출력 success callback
+************************************************************************/
+this.ExcelExportObject_onsuccess = function(obj:ExportObject, e:nexacro.ExcelExportObject)
+{   
+  var str = "";
+  str += "\n=========== onsuccess event start=================";
+  str += "\ne.eventid : " + e.eventid;
+  str += "\ne.url: " +  e.url;  
+  str += "\ne.id :"+e.id;
+  str += "\ne.fromobject :"+e.fromobject;
+  str += "\ne.fromreferenceobject  :"+e.fromreferenceobject;
+  //trace(str);
+};
+
+/************************************************************************
+엑셀출력 progress
+************************************************************************/
+this.ExcelExportObject_onprogress = function(obj:ExportObject, e:nexacro.ExcelExportObject)
+{
+  var str = "";
+  str += "\n=========== onprogress event start================";
+  str += "\ne.eventid  :"+e.eventid;
+  str += "\ne.id :"+e.id;
+  str += "\ne.fromobject :"+e.fromobject;
+  str += "\ne.fromreferenceobject  :"+e.fromreferenceobject;
+  str += "\ne.itemindex :"+e.itemindex;
+  str += "\ne.itemtype :"+e.itemtype;
+  str += "\ne.recordindex :"+e.recordindex;  
+  //trace(str);
+};
+
+/************************************************************************
+엑셀출력 error callback
+************************************************************************/
+this.ExcelExportObject_onerror = function(obj:ExportObject, e:nexacro.ExcelExportObject)
+{  
+  var str = "";
+  str += "\n=========== onerror event start===================";
+  str += "\ne.eventid :"+e.eventid;
+  str += "\ne.id :"+e.id;
+  str += "\ne.fromobject :"+e.fromobject;
+  str += "\ne.fromreferenceobject :"+e.fromreferenceobject;
+  str += "\ne.errorcode :"+e.errorcode;
+  str += "\ne.errormsg :"+e.errormsg;  
+  //trace(str);
+};
+
+
+/************************************************************************
+divDetail_btnApply_onclick : 적용버튼 클릭 이벤트
+************************************************************************/
+this.divDetail_btnApply_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{
+	var nRow = this.ds_Prj.rowposition;	
+	this.ds_Prj.copyRow(nRow, this.ds_PrjEdit, 0);
+};
+
+/************************************************************************
+divDetail_btnInit_onclick : 초기화버튼 클릭 이벤트
+************************************************************************/
+this.divDetail_btnInit_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{
+	this.ds_PrjEdit.clearData();
+	var aRow = this.ds_PrjEdit.addRow();
+	this.ds_PrjEdit.copyRow(0, this.ds_Prj, this.ds_PrjEdit.rowposition);
+};
+
+
+///// DATASET 
+/************************************************************************
+dataset onrowpostchanged event
+************************************************************************/
+this.ds_Prj_onrowposchanged = function(obj:nexacro.NormalDataset,e:nexacro.DSRowPosChangeEventInfo)
+{
+	this.ds_PrjEdit.clearData();
+	var aRow = this.ds_PrjEdit.addRow();
+	this.ds_PrjEdit.copyRow(0, this.ds_Prj, e.newrow);
+};]]></Script>
+    <Bind>
+      <BindItem id="item0" compid="divDetail.form.Edit00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_NAME"/>
+      <BindItem id="item1" compid="Edit00_02" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_DATE"/>
+      <BindItem id="item2" compid="Edit00_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_CUSTOMER"/>
+      <BindItem id="item3" compid="Edit00_01_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_DB"/>
+      <BindItem id="item4" compid="Edit00_02_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_BACK"/>
+      <BindItem id="item5" compid="Edit00_01" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_FRONT"/>
+      <BindItem id="item6" compid="Edit00_00_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_SERVER"/>
+      <BindItem id="item7" compid="Edit00_00_01_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_TOOL"/>
+      <BindItem id="item8" compid="divDetail.form.Edit00_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_CUSTOMER"/>
+      <BindItem id="item9" compid="divDetail.form.Edit00_01" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_FRNT"/>
+      <BindItem id="item10" compid="divDetail.form.Edit00_00_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_SVR"/>
+      <BindItem id="item11" compid="divDetail.form.Edit00_02" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_YEAR"/>
+      <BindItem id="item12" compid="divDetail.form.Edit00_02_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_BKND"/>
+      <BindItem id="item13" compid="divDetail.form.Edit00_00_01_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_TOOL"/>
+      <BindItem id="item14" compid="divDetail.form.Edit00_01_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_DB"/>
+      <BindItem id="item15" compid="divDetail.form.Combo00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_TYPE"/>
+      <BindItem id="item16" compid="divSearch.form.Edit00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_NAME"/>
+      <BindItem id="item17" compid="divSearch.form.Edit00_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_CUSTOMER"/>
+      <BindItem id="item18" compid="divSearch.form.Edit00_01" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_FRNT"/>
+      <BindItem id="item20" compid="divSearch.form.Edit00_02" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_YEAR"/>
+      <BindItem id="item21" compid="divSearch.form.Edit00_02_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_BKND"/>
+      <BindItem id="item22" compid="divSearch.form.Edit00_00_01_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_TOOL"/>
+      <BindItem id="item23" compid="divSearch.form.Edit00_01_00" propid="value" datasetid="ds_PrjEdit" columnid="PRJ_DB"/>
+    </Bind>
+  </Form>
+</FDL>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="frmWork" width="1280" height="720" titletext="New Form" onload="frmWork_onload" onactivate="frmWork_onactivate" onclose="frmWork_onclose">
+    <Layouts>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <Div id="divWork" taborder="0" text="Div00" left="10" top="0" right="0" bottom="0">
+          <Layouts>
+            <Layout>
+              <Div id="divSpec" taborder="0" left="7" top="17" height="343" border="1px solid" right="22.05%">
+                <Layouts>
+                  <Layout>
+                    <TextArea id="taSpec" taborder="0" left="10" top="10" height="322" background="black" color="#39e609" value="-----------------------------------------------------------&#10;/* Site Spec */&#10;- http://localenv.info:8081/river/nexariver/&#10;* Nexacro N&#10;* Spring Framework (Egov)&#10;* Oracle 11XE&#10;* Tomcat 9.0&#10;* Git : http://localenv.info:9418/jhsong/river&#10;-----------------------------------------------------------&#10;mail : hugs@daum.net&#10;phone : 010-2972-4321&#10;-----------------------------------------------------------" font="normal 12pt/normal &quot;Arial&quot;" readonly="true" onchanged="divWork_divSpec_taSpec_onchanged" right="0.92%"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+            </Layout>
+          </Layouts>
+        </Div>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[this.application = null;
+this.fvWinId = null;
+this.fvMenuNM = null;
+this.fvFormURL = null;
+
+this.frmWork_onload = function(obj:nexacro.Form,e:nexacro.LoadEventInfo)
+{
+	this.application = nexacro.getApplication();
+	
+	var objOwnerFrame = this.getOwnerFrame();
+
+	this.fvWinId   = objOwnerFrame.param.FORM_ID;
+	this.fvMenuNM = objOwnerFrame.param.MENU_NM;
+	this.fvFormURL = objOwnerFrame.param.FORM_URL;
+	
+	this.divWork.set_url(this.fvFormURL);
+	this.divWork.form.resetScroll();
+};
+
+this.frmWork_onactivate = function(obj:nexacro.Form,e:nexacro.ActivateEventInfo)
+{
+	this.application.MdiFrame.form.fn_ActiveTabPage(this.fvWinId);
+    this.divWork.form.resetScroll();
+	return;	
+};
+
+this.frmWork_onclose = function(obj:nexacro.Form,e:nexacro.CloseEventInfo)
+{
+	this.application.MdiFrame.form.fn_DeleteTabpage(this.fvWinId);
+};
+
+this.divWork_divSpec_taSpec_onchanged = function(obj:nexacro.TextArea,e:nexacro.ChangeEventInfo)
+{
+	
+};
+]]></Script>
+  </Form>
+</FDL>

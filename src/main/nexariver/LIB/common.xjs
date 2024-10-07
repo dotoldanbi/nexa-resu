@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script version="1.0" type="xscript5.1"><![CDATA[/************************************************************************
+TITLE  : COMMON JS
+AUTHOR : jhsong
+DATE   : 2024.01.01.
+************************************************************************/
+
+/************************************************************************
+desc : bottomFrame에 텍스트 표시
+param : 문자열
+return : N/A
+************************************************************************/
+this.lfn_dispBottom = function(log) {
+	var objApp = nexacro.getApplication();
+	var objFrm = objApp.mainframe.VFSet01.BottomFrame.form.Static01;
+	objFrm.set_text(log);
+}]]></Script>
