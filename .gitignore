@@ -2,8 +2,5 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,eclipse,git
 
 ### Eclipse ###
-context-*.xml
-
-
 
 # End of https://www.toptal.com/developers/gitignore/api/java,eclipse,git
