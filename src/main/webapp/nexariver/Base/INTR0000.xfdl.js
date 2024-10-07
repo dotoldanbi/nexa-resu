@@ -34,7 +34,7 @@
             obj.set_taborder("0");
             obj.set_background("black");
             obj.set_color("#39e609");
-            obj.set_value("-----------------------------------------------------------\n/* Site Spec */\n- http://localenv.info:8081/river/nexariver/\n* Nexacro N\n* Spring Framework (Egov)\n* Oracle 11XE\n* Tomcat 9.0\n* Git : http://localenv.info:9418/jhsong/river\n-----------------------------------------------------------\nmail : hugs@daum.net\nphone : 010-2972-4321\n-----------------------------------------------------------");
+            obj.set_value("-----------------------------------------------------------------\n/* Site Spec */\n- http://localenv.info:8081/river/nexariver/\n* Nexacro N\n* Spring Framework (Egov)\n* Oracle 11XE\n* Tomcat 9.0\n* Git : https://github.com/dotoldanbi/nexa-resu.git\n-----------------------------------------------------------------\nmail : hugs@daum.net\nphone : 010-2972-4321\n-----------------------------------------------------------------");
             obj.set_font("normal 12pt/normal \"Arial\"");
             obj.set_readonly("true");
             this.divWork.form.divSpec.addChild(obj.name, obj);
@@ -95,11 +95,6 @@
         this.frmWork_onclose = function(obj,e)
         {
         	this.application.MdiFrame.form.fn_DeleteTabpage(this.fvWinId);
-        };
-
-        this.divWork_divSpec_taSpec_onchanged = function(obj,e)
-        {
-
         };
 
         });
